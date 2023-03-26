@@ -1,22 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-void criaHeap(int *vetor, int i, int f);
-void heapsort(int *vetor, int n);
-
-int main(){
-
-    int vetor[10] = {4,1,3,2,16,9,10,14,8,7};
-	heapsort(vetor,10);
-	for(int i = 0; i < 10; i++){
-		printf("%i ", vetor[i]);
-	}
-    printf("\n");
-
-    return 0;
-}
-
-
 void heapsort(int *vetor, int n){
     int aux;
 
